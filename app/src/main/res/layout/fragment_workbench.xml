@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 xuexiangjys(xuexiangjys@163.com)
+  ~ Copyright (C) 2025 xuexiangjys(xuexiangjys@163.com)
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,23 +15,16 @@
   ~ limitations under the License.
   ~
   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/xui_config_color_background"
+    android:orientation="vertical">
 
-<!--底部导航栏-->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        style="@style/TextStyle.Title"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="@string/menu_workbench" />
 
-    <item
-        android:id="@+id/nav_news"
-        android:icon="@drawable/ic_menu_news"
-        android:title="@string/menu_news" />
-
-    <item
-        android:id="@+id/nav_workbench"
-        android:icon="@drawable/ic_workbench"
-        android:title="@string/menu_workbench" />
-
-    <item
-        android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_menu_person"
-        android:title="@string/menu_profile" />
-
-</menu>
+</LinearLayout>

@@ -40,7 +40,7 @@ import com.wms.app.fragment.news.NewsFragment;
 import com.wms.app.fragment.other.AboutFragment;
 import com.wms.app.fragment.other.SettingsFragment;
 import com.wms.app.fragment.profile.ProfileFragment;
-import com.wms.app.fragment.trending.TrendingFragment;
+import com.wms.app.fragment.workbench.WorkbenchFragment;
 import com.wms.app.utils.Utils;
 import com.wms.app.utils.sdkinit.XUpdateInit;
 import com.wms.app.widget.GuideTipsDialog;
@@ -101,7 +101,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> implements V
         //主页内容填充
         BaseFragment[] fragments = new BaseFragment[]{
                 new NewsFragment(),
-                new TrendingFragment(),
+                new WorkbenchFragment(),
                 new ProfileFragment()
         };
         FragmentAdapter<BaseFragment> adapter = new FragmentAdapter<>(getSupportFragmentManager(), fragments);
