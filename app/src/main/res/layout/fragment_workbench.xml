@@ -21,10 +21,45 @@
     android:background="?attr/xui_config_color_background"
     android:orientation="vertical">
 
-    <TextView
-        style="@style/TextStyle.Title"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:text="@string/menu_workbench" />
+    <!-- Banner -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+    </FrameLayout>
+
+    <!-- 常用应用 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <GridView
+            android:id="@+id/grid_common_apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"/>
+    </LinearLayout>
+
+    <!-- 全部应用 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <GridView
+            android:id="@+id/grid_all_apps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="4"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"/>
+    </LinearLayout>
 
 </LinearLayout>

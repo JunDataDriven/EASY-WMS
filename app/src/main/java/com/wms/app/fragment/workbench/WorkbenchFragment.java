@@ -34,7 +34,7 @@ import com.xuexiang.xui.widget.actionbar.TitleBar;
 /**
  * 工作台页面
  *
- * @author [您的名字]
+ * @author lx
  * @since 2025-02-09
  */
 @Page(anim = CoreAnim.none)

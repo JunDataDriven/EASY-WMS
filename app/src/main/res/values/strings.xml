@@ -6,7 +6,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="menu_news">动态</string>
-    <string name="menu_trending">趋势</string>
     <string name="menu_workbench">工作台</string>
     <string name="menu_profile">我的</string>
 
